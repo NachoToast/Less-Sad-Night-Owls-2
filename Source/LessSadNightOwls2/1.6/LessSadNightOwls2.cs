@@ -35,7 +35,12 @@ public class LessSadNightOwls2
             return;
         }
 
-        for (int i = 11; i <= 18; i++)
+        int maxHourChecked =
+            p.story.traits.HasTrait(MyTraitDefOf.QuickSleeper)
+            ? 14
+            : 18;
+
+        for (int i = 11; i <= maxHourChecked; i++)
         {
             if (p.timetable.GetAssignment(i) != TimeAssignmentDefOf.Sleep)
             {

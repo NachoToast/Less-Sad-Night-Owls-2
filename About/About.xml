@@ -8,7 +8,7 @@
 
     <modVersion>1.0</modVersion>
 
-    <description>Night owls won't complain about being awake during the day if their scheduled activity from 11h-18h is set to sleep. Imprisoned night owls also won't complain.</description>
+    <description>Night owls won't complain about being awake during the day if their scheduled activity from 11h-18h is set to sleep (or 11h-14h if they are a quick sleeper). Imprisoned night owls also won't complain.</description>
 
     <supportedVersions>
         <li>1.6</li>
